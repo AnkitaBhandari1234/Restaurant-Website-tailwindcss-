@@ -43,8 +43,10 @@ function Blogmiddlecontent() {
 
     blogcontent.map((val,i)=>{
         return(
-          
-            <div className='flex flex-col items-start gap-8 py-5 w-11/12'>
+        
+          <div className='flex flex-col lg:flex-row'>
+            <Blogleftcontent />
+              <div className='flex  flex-col items-start gap-8 py-5 lg:w-11/12'>
                 <div className='flex flex-col gap-4'>
                 
                 <img src={val.src} className='w-full '></img>
@@ -53,6 +55,7 @@ function Blogmiddlecontent() {
                 </div>
                 <button className='text-[15px] font-[500] text-gray-800 px-8 py-3 hover:bg-[#F42F2C] hover:text-white'>VIEW MORE</button>
             </div>
+          </div>
         )
     })
     }

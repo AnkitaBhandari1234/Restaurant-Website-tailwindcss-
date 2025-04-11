@@ -4,9 +4,9 @@ import Reviewbgimage from '../../../assets/testimonial-bg.webp'
 
 function Review() {
   return (
-    <section className=" h-fit   ">
-      <img src={Reviewbgimage} className='absolute h-fit '></img>
-    <div className="h-[400px] w-full flex flex-col  items-center gap-4 justify-center relative ">
+    <section className=" h-[400px] relative   ">
+      <img src={Reviewbgimage} className=' h-full object-cover '></img>
+    <div className="h-[400px] w-full flex flex-col  items-center gap-4 justify-center absolute top-0 left-0 right-0 bottom-0  ">
       <img src={Reviewimage} className="w-fit h-fit"></img>
       <h1 className="capitalize text-xl font-bold">Hilds sutton</h1>
       <div className="flex gap-1">

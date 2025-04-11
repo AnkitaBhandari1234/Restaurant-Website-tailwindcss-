@@ -3,10 +3,10 @@ import Formimage from '../../../assets/formbg.webp'
 
 function Reservationform() {
   return (
-    <section className=" relative h-lvh   ">
-        <img src={Formimage} className='h-lvh absolute '></img>
-      <div className="bg-[#4e4f51] absolute top-0 left-0 right-0 bottom-0 h-lvh  opacity-80  "></div>
-      <div className="relative flex  felx-col gap-20 lg:gap-3 flex-col lg:flex-row lg:justify-between  py-20 lg:py-28  lg:pr-14    ">
+    <section className=" relative lg:h-lvh   ">
+        <img src={Formimage} className='lg:h-lvh absolute h-[900px] object-cover '></img>
+      <div className="bg-[#0b0b0b] absolute top-0 left-0 right-0 bottom-0 lg:h-lvh h-[900px]  opacity-80  "></div>
+      <div className="relative flex  felx-col gap-15 lg:gap-3 flex-col lg:flex-row lg:justify-between  py-20 lg:py-28  lg:pr-14    ">
         <div className=" w-11/12 lg:w-5/12 m-auto  ">
           <h1 className="text-4xl text-white font-bold font-poppins mb-3">
             Reserve Your Seats to Confirm if You Come with Your Family
@@ -18,7 +18,7 @@ function Reservationform() {
             nisi ut aliquip ex ea.
           </p>
         </div>
-        <div className=" flex flex-col bg-white  w-[350px]  lg:w-[440px] h-[450px] lg:h-full lg:gap-4  py-10 lg:py-16  px-3 lg:px-8 m-auto ">
+        <div className=" flex flex-col bg-white  w-[350px]  lg:w-[440px] h-[400px] lg:h-full lg:gap-4  py-10 lg:py-16  px-3 lg:px-8 m-auto ">
           <input
             type="text"
             placeholder="your name"
@@ -47,7 +47,7 @@ function Reservationform() {
           </select>
           <button
             type="submit"
-            className="bg-[#F42F2C] w-fit text-white py-2.5 px-4 font-poppins text-center m-auto  "
+            className="bg-[#F42F2C] w-fit text-white py-2.5 px-4 font-poppins text-center m-auto   "
           >
             Make Reservation
           </button>

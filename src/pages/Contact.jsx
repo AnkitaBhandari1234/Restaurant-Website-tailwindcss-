@@ -13,8 +13,8 @@ function Contact() {
       
       <BannerReuse image={Bgimage} title='Contact Us'/>
 
-      <div className="grid grid-cols-3 px-20 py-20 bg-[#F9F9FF] w-full ">
-        <div className="flex flex-col gap-10">
+      <div className="grid lg:grid-cols-3 lg:px-20 px-3 lg:py-18 py-15 bg-[#F9F9FF] w-full  ">
+        <div className="flex flex-col lg:gap-10 gap-6 ">
           <div className="flex gap-8">
             <div className="text-4xl text-red-600 ">
               <HiOutlineHome />
@@ -46,16 +46,16 @@ function Contact() {
           </div>
           
         </div>
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-5 lg:py-13 py-5 pt-10 ">
           <input type="text" placeholder="Enter your name" className="bg-[#FFFFFF] w-full border border-[#6A7282] py-3 px-3  text-[16px] "></input>
           <input type="address" placeholder="Enter email address" className="bg-[#FFFFFF] w-full border  border-gray-500 py-3 px-3  text-[16px]"></input>
           <input type="text" placeholder="Enter subject" className="bg-[#FFFFFF] w-full border  border-gray-500 py-3 px-3  text-[16px]"></input>
         </div>
-        <div className="w-11/12 mx-10">
-          <textarea rows={7} cols={40} className="border border-gray-600 px-3 py-3" placeholder="Enter Message "></textarea>
+        <div className="w-11/12 lg:mx-6 py-11 ">
+          <textarea rows={7} cols={46} className="border border-gray-600 px-3 py-3" placeholder="Enter Message "></textarea>
         </div>
 
-        <div className="w-[1140px] text-right px-10">
+        <div className="lg:w-[1140px] text-right px-1 py-3">
           <button type="submit" className="bg-red-600 px-6 py-2.5 text-white ">SEND MESSAGE</button>
         </div>
       </div>

@@ -58,13 +58,15 @@ function Blog() {
         blogcontent.map((val,i)=>{
             return(
 
-        <div>
-          <img src={val.src} className="w-full"></img>
+        <div className="hover:cursor-pointer ">
+          <div className='w-full overflow-hidden '>
+          <img src={val.src} className="w- hover:scale-110 transition-all duration-200  ease-in-out   "></img>
+          </div>
           <div className="flex flex-col gap-3 ">
             <span className="bg-black w-6/12 py-1.5 text-white font-light text-center mt-5">
               {val.date}
             </span>
-            <h3 className=" text-xl font-bold lg:font-poppins text-[#3F3E3F] ">
+            <h3 className=" text-xl font-bold lg:font-poppins text-[#3F3E3F] hover:text-orange-700 ease-in-out duration-200 ">
               {val.name}
             </h3>
             <p className="text-[#777777] text-md  font-light w-11/12">

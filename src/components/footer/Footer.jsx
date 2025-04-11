@@ -6,6 +6,20 @@ import { FaBehance } from "react-icons/fa";
 
 
 function Footer() {
+  const iconname=[
+    {
+      name:<FaFacebookF />
+    },
+    {
+      name: <FaTwitter />
+    },
+    {
+      name: <LuInstagram />
+    },
+    {
+      name: <FaBehance />
+    },
+  ]
   return (
     <footer>
 
@@ -55,24 +69,19 @@ function Footer() {
       <div>
       Copyright ©2025 All rights reserved | This template is made with  by <a href="#" className="text-red-600 font-poppins">Colorlib</a>
       </div>
-      <div className="flex gap-2">
-        <div className='bg-[#111111] w-3/12 lg:w-3/12 h-6/12 lg:h-4/12  p-1'>
-
-      <FaFacebookF />
+      {/* icons display */}
+      <div className="flex gap-2  ">
+        {
+          iconname.map((val,i)=>{
+            return(
+              
+        <div className='bg-[#111111] w-2/12 lg:w-3/12 h-11/12 lg:h-4/12  lg:p-1.5 p-5  hover:bg-orange-600 hover:text-black duration-150 ease-in-out  '>
+          {val.name}
         </div>
-        <div className='bg-[#111111] w-3/12 lg:w-3/12 h-6/12 lg:h-4/12  p-1'>
-
-        <FaTwitter />
-        </div>
-        <div className='bg-[#111111] w-3/12 lg:w-3/12 h-6/12 lg:h-4/12  p-1'>
-
-        <LuInstagram />
-        </div>
-        <div className='bg-[#111111] w-3/12 lg:w-3/12 h-6/12 lg:h-4/12  p-1'>
-
-        <FaBehance />
-
-        </div>
+            )
+          })
+        }
+        
         
         </div>
       

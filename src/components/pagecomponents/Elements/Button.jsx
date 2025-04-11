@@ -4,9 +4,9 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 function Button() {
   return (
-    <div className='w-10/12 mx-auto '>
+    <div className='lg:w-10/12 w-11/12 mx-auto '>
         <h1 className='text-2xl font-semibold font-poppins text-gray-800 pb-4'>Sample Buttons</h1>
-        <div className='flex flex-col gap-4 py-9 '>
+        <div className='flex flex-col gap-4 py-9  '>
           <div className='flex flex-row gap-13 items-center ml-7 '>
             <h4 className='text-[13px] font-semibold text-gray-800'><a href='#'>Default</a></h4>
             <div className='flex flex-row gap-3.5 '>
@@ -165,7 +165,7 @@ function Button() {
             <button className='bg-[#4cd3e3] text-white text-sm font-semibold font-poppins w-27 h-9 hover:bg-white hover:text-[#4cd3e3] hover:border'><a href='#'>Medium</a></button>
             <button className='bg-[#f44a40] text-white text-sm font-semibold font-poppins w-25 h-7 hover:bg-white hover:text-[#f44a40] hover:border'><a href='#'>Small</a></button>
           </div>
-          <div className='flex flex-row gap-3.5 items-center'>
+          <div className='flex flex-row  gap-3.5 items-center'>
             <button className='bg-white text-red-500 border text-sm font-semibold font-poppins w-38 h-15 hover:bg-red-500 hover:text-white hover:border'><a href='#'>Extra Large</a></button>
             <button className='bg-white text-[#4cd3e3] text-sm border font-semibold font-poppins w-30 h-13 hover:bg-[#4cd3e3] hover:text-white hover:border'><a href='#'>Large</a></button>
             <button className='bg-white text-red-500 border text-sm font-semibold font-poppins w-29 h-12 hover:bg-red-500 hover:text-white hover:border'><a href='#'>Default</a></button>

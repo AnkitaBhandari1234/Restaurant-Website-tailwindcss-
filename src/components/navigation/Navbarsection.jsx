@@ -36,10 +36,10 @@ function Navbarsection() {
     },
   ];
   return (
-    <header className="fixed top-0 left-0 w-full z-50 py-15   ">
+    <header className="fixed top-0 left-0 w-full z-50 py-15 overflow-hidden    ">
       <nav className="  flex justify-between items-center   w-11/12 mx-auto  ">
-        <div className=" ">
-          <img src={Logo} alt="logo-img" className="h-15"></img>
+        <div className="px-35  ">
+          <img src={Logo} alt="logo-img" className="lg:h-15 h-20 "></img>
         </div>
         <ul className=" hidden lg:flex items-center gap-6 text-white font-poppins  text-sm font-semibold">
           {navitem.map((val, i) => {

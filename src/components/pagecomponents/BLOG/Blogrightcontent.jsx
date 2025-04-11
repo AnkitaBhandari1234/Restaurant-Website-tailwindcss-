@@ -56,7 +56,7 @@ function Blogrightcontent() {
         }
     ]
   return (
-    <div className='w-9/12 py-17  border-1 border-gray-200 mt-4.5 h-fit  '>
+    <div className='lg:w-9/12 py-17  border-1 border-gray-200 mt-4.5 h-fit  '>
         <div className='relative  items-center justify-center text-center'>
             <input type='text' placeholder='Search Posts' className='bg-red-500 relative placeholder:text-white font-poppins text-[15px] w-10/12 py-2.5 rounded-3xl placeholder:px-5 outline-none'></input>
            <span className='absolute top-0 bottom-0 left-63 right-0 text-white place-content-center   '><FaSearch /></span> 
