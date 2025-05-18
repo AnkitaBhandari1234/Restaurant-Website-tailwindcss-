@@ -4,7 +4,7 @@ import Forestimg from '../../../assets/blogcontent2.webp'
 import Weddingimg from '../../../assets/blogcontent3.webp'
 import Girlimg from '../../../assets/blogcontent4.webp'
 import Cityimg from '../../../assets/blogcontent5.webp'
-import Blogleftcontent from './blogleftcontent'
+import Blogleftcontent from './Blogleftcontent.jsx'
 
 
 

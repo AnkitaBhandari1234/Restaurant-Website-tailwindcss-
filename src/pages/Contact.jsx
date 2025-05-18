@@ -1,11 +1,10 @@
 import React from "react";
 import Bgimage from "../assets/top-banner.jpg.webp";
-import { FaArrowRight } from "react-icons/fa6";
-import Navbarsection from "../components/navigation/Navbarsection";
+
 import { HiOutlineHome } from "react-icons/hi2";
 import { FiPhone } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
-import Footer from "../components/footer/Footer";
+
 import BannerReuse from "../components/ui/BannerReuse";
 function Contact() {
   return (

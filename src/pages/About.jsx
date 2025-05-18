@@ -5,9 +5,9 @@ import Bgimage from '../assets/top-banner.jpg.webp'
 import Sandwichimg from '../assets/s1.jpg.webp'
 import Cutletimg from '../assets/s2.jpg.webp'
 import Meatimg from '../assets/s3.jpg.webp'
-import { FaArrowRight } from "react-icons/fa6";
+
 import Review from '../components/pagecomponents/home/Review'
-import Footer from '../components/footer/Footer'
+
 import BannerReuse from '../components/ui/BannerReuse'
 
 function About() {

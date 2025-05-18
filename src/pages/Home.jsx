@@ -1,14 +1,16 @@
 import React from 'react'
-import Navbarsection from '../components/navigation/Navbarsection'
-import Banner from '../components/pagecomponents/home/Banner'
 
-import Fooditem from '../components/pagecomponents/home/Fooditem'
-import Reservationform from '../components/pagecomponents/home/Reservationform'
-import Fooddisplay from '../components/pagecomponents/home/Fooddisplay'
-import Review from '../components/pagecomponents/home/Review'
-import Blog from '../components/pagecomponents/home/Blog'
+
+
+import Fooditem from '../components/pagecomponents/home/Fooditem.jsx'
+import Reservationform from '../components/pagecomponents/home/Reservationform.jsx'
+import Fooddisplay from '../components/pagecomponents/home/Fooddisplay.jsx'
+import Review from '../components/pagecomponents/home/Review.jsx'
+import Blog from '../components/pagecomponents/home/Blog.jsx'
 import Aboutinfo from '../components/pagecomponents/home/Aboutinfo.jsx'
-// import Footer from '../components/footer/Footer'
+
+import Banner from '../components/pagecomponents/home/Banner.jsx'
+
 
 
 function Home() {
@@ -16,7 +18,7 @@ function Home() {
     <>
 
 
-    <Banner />
+    <Banner/>
    <Aboutinfo/>
     <Fooditem/>
    <Reservationform/>
